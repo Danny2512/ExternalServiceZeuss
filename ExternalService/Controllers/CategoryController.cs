@@ -1,4 +1,4 @@
-﻿using ExternalService.Common;
+using ExternalService.Common;
 using ExternalService.Data;
 using ExternalService.Data.Entities;
 using ExternalService.Models;
@@ -31,7 +31,16 @@ namespace ExternalService.Controllers
 
                 if (!string.IsNullOrEmpty(filter))
                 {
-                    query = query.Where(c => c.StrName.Contains(filter));
+                    if (Guid.TryParse(filter, out var categoryId))
+                    {
+                        // Si el filtro es un Guid válido, busca por Id
+                        query = query.Where(c => c.Id == categoryId);
+                    }
+                    else
+                    {
+                        // Si el filtro no es un Guid válido, busca por nombre
+                        query = query.Where(c => c.StrName.Contains(filter));
+                    }
                 }
 
                 var categoriesWithProducts = await query.ToListAsync();
