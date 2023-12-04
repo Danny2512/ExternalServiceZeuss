@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "FMO6i29mZXGsUtpFO8EEjOCqTiQbl5+36CNXfdsiugE=",
+  "Source": "ExternalService",
+  "BasePath": "_content/ExternalService",
+  "Mode": "Default",
+  "ManifestType": "Publish",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

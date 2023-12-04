@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121.
+-->
+<Project>
+  <PropertyGroup>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+    <_PublishTargetUrl>C:\Users\EQUIPO\OneDrive\Escritorio\ExternalService\ExternalService\ExternalService\bin\Release\net6.0\publish\</_PublishTargetUrl>
+    <History>True|2023-12-04T03:16:58.2532609Z;True|2023-12-03T22:13:19.2279560-05:00;</History>
+    <LastFailureDetails />
+  </PropertyGroup>
+  <ItemGroup>
+    <DestinationConnectionStrings Include="DefaultConnectionDev">
+      <Value>Data Source=DESKTOP-7O9LHSC\SQLEXPRESS%3bInitial Catalog=ExternalServiceZeuss%3bIntegrated Security=True%3bEncrypt=False%3b</Value>
+    </DestinationConnectionStrings>
+  </ItemGroup>
+</Project>

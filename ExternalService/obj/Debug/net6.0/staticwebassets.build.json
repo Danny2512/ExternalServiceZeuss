@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "pvEVEmg/82BMl8c8RHVvVglgRvFXezDqO+rHMZSkOwo=",
+  "Source": "ExternalService",
+  "BasePath": "_content/ExternalService",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
